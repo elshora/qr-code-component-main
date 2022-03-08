@@ -4,9 +4,13 @@
     padding: 0;
 }
 .attribution {
-     font-size: 11px; text-align: center;
-     display: block;
-     margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
 }
 .attribution a { color: hsl(228, 45%, 44%);
 }
@@ -17,7 +21,7 @@
     justify-content: center;
     align-items: center;
     font-family: Outfit, tahoma;
-    flex-direction: column;
+    position: relative;
 }
 .box { 
     width: 325px;

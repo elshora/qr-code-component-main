@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.attribution {
+     font-size: 11px; text-align: center;
+     display: block;
+     margin-top: 50px;
+}
+.attribution a { color: hsl(228, 45%, 44%);
+}
+.container {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit, tahoma;
+    flex-direction: column;
+}
+.box { 
+    width: 325px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 3%), 0 6px 20px 0 rgb(0 0 0 / 3%);
+}
+.box img {
+    width: calc(100% - 30px);
+    margin: 15px 15px 0;
+    border-radius: 10px;
+}
+.container .box .text {
+    text-align: center;
+    padding: 40px;
+}
+.box .text h3 {
+    color:hsl(218, 44%, 22%) ;
+    padding-bottom: 20px;
+}
+.box .text p {
+color: hsl(220, 15%, 55%);
+font-size: 15px;
+}
